@@ -23,4 +23,5 @@ jobs:
           appSourcePath: ${{ github.workspace }}/src
           acrName: joenewacr
           containerAppName: sub1-aca
+          containerAppEnvironment: workload-env-eastus          
           resourceGroup: ACA-RG
